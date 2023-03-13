@@ -89,20 +89,35 @@ h1{
     border-radius: 15px;
 }
 
-/*Content Section*/
+/*Services Section*/
 
-.content{
+.services{
     align-items: center;
 }
 
-.content-info{
+h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.services-info{
     display: flex;
     justify-content: center;
 }
 
-.content-info img{
+.services-info img{
     width: 200px;
     height: 200px;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
+}
+
+/*Quote Section*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
 }
