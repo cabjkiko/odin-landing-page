@@ -2,40 +2,37 @@
 
 body{
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     margin: 0;
 }
 
-a{
-    text-decoration: none; /*Removes blue text from links*/
-    color: #E5E7EB;
-    font-size: 18px;
+.container{
+    display: flex;
+    flex-direction: column;
 }
 
-.hero{
-    background-color: #1F2937;
-    padding: 15px 100px;
-}
-
+/*Header Section*/
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
 }
 
-.header-logo{
+.header-logo img{
     width: 200px;
 }
 
-.hero-text{
+.header-links{
     display: flex;
+    padding-right: 100px;
 }
 
-.right-links{
-    display: flex;
-    list-style: none; /*Removes underline from links*/
-    margin: 0;
-    padding: 0;
-    gap: 16px;
+.header-links a{
+    text-decoration: none; /*Removes blue text from links*/
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
 }
