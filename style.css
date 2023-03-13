@@ -101,14 +101,19 @@ h2{
     font-weight: bold;
 }
 
+.services-info p {
+    font-weight: bold;
+}
+
 .services-info{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .services-info img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
