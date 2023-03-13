@@ -52,7 +52,7 @@ body{
 .hero-text{
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    flex-basis: 5her00px;
     text-align: left;
     margin-right: 50px;
 }
@@ -85,4 +85,23 @@ h1{
 .hero-img img{
     width: 500px;
     height: 350px;
+    border-radius: 15px;
+}
+
+/*Content Section*/
+
+.content{
+    align-items: center;
+}
+
+.content-info{
+    display: flex;
+    justify-content: center;
+}
+
+.content-info img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
