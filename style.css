@@ -93,6 +93,7 @@ h1{
 
 .services{
     align-items: center;
+    padding: 100px 0px 100px 0px;
 }
 
 h2{
@@ -124,5 +125,12 @@ h2{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0 200px;
+    padding: 100px 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
