@@ -23,12 +23,13 @@ body{
 
 .header-logo img{
     width: 200px;
+    padding-left: 100px;
 }
 
 .header-links{
     display: flex;
     color: #E5E7EB;
-    padding-right: 100px;
+    padding-right: 200px;
 }
 
 .header-links a{
