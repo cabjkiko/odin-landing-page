@@ -139,3 +139,15 @@ h2{
     padding-right: 10px;
     text-align: right;
 }
+
+/*Sign Up Section*/
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: none;
+    margin: 50px 200px;
+    padding: 10px 80px;
+}
